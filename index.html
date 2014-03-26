@@ -39,7 +39,7 @@ $(function(){
 function enviarDatos(nom,semestre,cal1,cal2,cal3,cal4 ){
 	$.ajax({
 		type: "POST",
-		url: "http://onir.260mb.net/procesar.php",
+		url: "http://lafama.260mb.net/conexion/procesar.php",
 		data: "Nom="+nom+"&Semestre="+semestre+"&Cal1="+cal1+"&Cal2="+cal2+"&Cal3="+cal3+"&Cal4="+cal4,
 		success: onSuccess
 	}).done(function(msg){
